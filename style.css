@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+   font-family: "Roboto Mono", monospace;
+   margin: 0;
+   padding: 0;
+}
+:root {
+   --white-background: #ffffff;
+   --secondary-black-forga: #16171d;
+   --color-dark-blue: #101014ff;
+   --color-mid-blue: #16171d;
+   --color-light-blue: #1f2128;
+   --text-font: #5e5d7a;
+   --text-font-darker: rgb(41, 40, 40);
+   --text-font-hover: #5f46ba;
+   --text-font-size: 14px;
+}
+html {
+   scroll-behavior: smooth;
+}
+body {
+   background-color: var(--white-background);
+   /* background: rgb(25, 22, 66);
+   background: linear-gradient(90deg, rgba(25, 22, 66, 1) 1%, rgba(137, 109, 147, 1) 50%, rgba(25, 22, 66, 1) 93%); */
+}
+.header {
+   background-color: white !important;
+   /* margin: 0 60px; */
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 10;
+}
+a {
+   color: var(--text-font-darker);
+}
+a:link {
+   text-decoration: none;
+}
+.logo > img {
+   margin-top: 10px;
+   height: 70px;
+}
+nav {
+   /* background-color:#5e5d7a; */
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   padding: 0% 5% 0 3%;
+}
+.nav-links {
+   letter-spacing: 2px;
+   font-size: var(--text-font-size);
+   font-weight: bolder;
+}
+.ul-navs > li {
+   /* border: solid #292929 3px; */
+   display: inline-block;
+   /* background-color: #5f46ba; */
+   list-style: none;
+   /* padding: 20px; */
+   padding: 10px 10px;
+   transition: 0.2s ;
+}
+.ul-navs a {
+   /* padding: 10px 20px; */
+   position: relative;
+   /* color: #000; */
+}
+.ul-navs a::before {
+   content: "";
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #5f46ba;
+   transform: scaleX(0);
+   transform-origin: top left;
+   transition: transform 0.5s ease;
+}
+.ul-navs  a:hover {
+   /* color: #000; */
+   cursor: pointer;
+   padding-bottom: 5px;
+   /* border-bottom: solid var(--text-font-hover) 3px; */
+}
+.ul-navs a:hover::before {
+   transform: scaleX(1);
+}
+/* Home Page */
+.home-page {
+   /* align-items: center; */
+   display: flex;
+   justify-content: center;
+   /* background-color: beige; */
+   margin: 0px 60px;
+   height: 85vh;
+   position: relative;
+}
+.border {
+   margin: 100px 70% 0 12%;
+   right: 0;
+   height: 5px;
+   border-top: solid #5f46ba 3px;
+}
+.my-pic {
+   /* margin: 0 20px; */
+   margin: 90px 30px;
+   /* background-color: red; */
+   height: 550px;
+   width: 35%;
+}
+.my-pic > img {
+   /* margin-top: 50px; */
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.home-intro {
+   /* background-color: bisque; */
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   height: 500px;
+   width: 40%;
+   margin: 20px 40px;
+   padding: 20px;
+}
+.home-intro > p {
+   margin: 40px 30px;
+   line-height: 2.8rem;
+}
+.page-nav-container {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   padding: 0 20px;
+   top: 50%;
+}
+.nav-details, .nav-details2, .nav-details3, .nav-details4 {
+   /* display: none; */
+   font-size: 20px;
+   height: 30px;
+   width: 120px;
+   justify-content: center;
+   position: absolute;
+   text-align: justify;
+}
+.nav-details {
+      right: -200%;
+         top: -5%;
+}
+.nav-details2 {
+      right: -200%;
+      top: 20%;
+}
+.nav-details3 {
+      right: -200%;
+      top: 45%;
+}
+.nav-details4 {
+      right: -200%;
+      top: 70%;
+}
+.nav-details span, .nav-details2 span , 
+.nav-details3 span, .nav-details4 span{
+   font-size: 15px !important;
+}
+.page-nav-container a {
+   color: var(--text-font-darker);
+   font-size: 18px;
+   padding: 2px 0;
+   transition: 0.6s ease;
+}
+.page-nav-container a:hover {
+   cursor: pointer;
+   transform: translateX(10px);
+   /* font-size: 28px; */
+}
+.social-media  {
+   align-items: center;
+   /* background-color: #5f46ba; */
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   padding: 0 20px;
+   top: 85%;
+   right: 0;
+}
+.social-media i {
+   color: var(--text-font-darker);
+   font-size: 15px;
+   padding: 10px 0;
+}
+.social-media i:hover {
+   cursor: pointer;
+   color: var(--text-font-hover);
+}
