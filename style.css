@@ -299,7 +299,20 @@ nav {
    width: 80%;
    max-width: 1095px;
    margin: 30px 160px;
+   position: relative;
    /* margin: 0 185px; */
+}
+.list-modal {
+   background-color: var(--text-font-hover);
+   height: 380px;
+   margin: 50px 40px;
+   padding: 40px;
+   position: absolute;
+   right: 0;
+   width: 40%;
+}
+.personal-info {
+   display: none;
 }
 .education-section {
    /* background-color: aliceblue; */
