@@ -49,6 +49,19 @@ nav {
    justify-content: space-between;
    padding: 0% 5% 0 3%;
 }
+.half-border::before {
+   content: "";
+   /* position: absolute; */
+   display: block;
+   width: 10%;
+   height: 3px;
+   top: 0;
+   left: 0;
+   background-color: #5f46ba;
+   transform: scaleX(1);
+   transform-origin: top left;
+   transition: transform 0.5s ease;
+}
 .nav-links {
    letter-spacing: 2px;
    font-size: var(--text-font-size);
@@ -94,30 +107,32 @@ nav {
 .home-page {
    /* align-items: center; */
    display: flex;
-   justify-content: center;
+   /* justify-content: center; */
    /* background-color: beige; */
-   margin: 0px 60px;
+   margin: 120px 60px;
    height: 85vh;
    position: relative;
 }
-.border {
-   margin: 100px 70% 0 12%;
-   right: 0;
-   height: 5px;
-   border-top: solid #5f46ba 3px;
-}
 .my-pic {
    /* margin: 0 20px; */
-   margin: 90px 30px;
+   margin: 80px 100px;
    /* background-color: red; */
-   height: 550px;
-   width: 35%;
+   min-width: 550px;
+   height: 580px;
+   width: 550px;
+   position: relative;
+   /* width: 35%; */
+}
+.my-pic::before {
+   width: 23%;
 }
 .my-pic > img {
    /* margin-top: 50px; */
-   height: 100%;
+   bottom: 0;
+   height: 90%;
    width: 100%;
    object-fit: cover;
+   position: absolute;
 }
 .home-intro {
    /* background-color: bisque; */
@@ -130,6 +145,10 @@ nav {
 .home-intro > p {
    margin: 40px 30px;
    line-height: 2.8rem;
+   text-align: justify;
+}
+.home-intro span {
+   margin-left: 40px;
 }
 .page-nav-container {
    align-items: center;
@@ -147,22 +166,24 @@ nav {
    justify-content: center;
    position: absolute;
    text-align: justify;
+   transition: 0.6s ease;
+   opacity: 0;
 }
 .nav-details {
-      right: -200%;
-         top: -5%;
+   right: -220%;
+   top: -5%;
 }
 .nav-details2 {
-      right: -200%;
-      top: 20%;
+   right: -220%;
+   top: 20%;
 }
 .nav-details3 {
-      right: -200%;
-      top: 45%;
+   right: -220%;
+   top: 45%;
 }
 .nav-details4 {
-      right: -200%;
-      top: 70%;
+   right: -220%;
+   top: 70%;
 }
 .nav-details span, .nav-details2 span , 
 .nav-details3 span, .nav-details4 span{
@@ -173,6 +194,13 @@ nav {
    font-size: 18px;
    padding: 2px 0;
    transition: 0.6s ease;
+}
+.nav1:hover  ~ .nav-details,
+.nav2:hover  ~ .nav-details2,
+.nav3:hover  ~ .nav-details3,
+.nav4:hover  ~ .nav-details4
+{
+   opacity: 1;
 }
 .page-nav-container a:hover {
    cursor: pointer;
@@ -197,4 +225,97 @@ nav {
 .social-media i:hover {
    cursor: pointer;
    color: var(--text-font-hover);
+}
+/* Personal Details Section */
+.personal-section {
+   /* align-items: center; */
+   /* background-color: bisque ; */
+   display: flex;
+   /* max-height: 85vh; */
+   height: 125vh;
+   /* justify-content: center; */
+   /* margin: 100px 60px; */
+   margin: 0 60px;
+}
+.personal-container {
+   /* background-color: #5f46ba; */
+   height: 650px;
+   /* height: 85%; */
+   width: 90%;
+   max-width: 1300px;
+   margin: 40px 100px;
+   /* position: relative; */
+}
+.personal {
+   /* background-color: aqua; */
+   max-height: 570px;
+   /* min-width: 550px; */
+   max-width: 550px;
+   height: 570px;
+   width: 550px;
+   position: absolute;
+}
+.personal-list {
+   background-color: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 29px 0px;
+   /* width: 550px; */
+   max-width: 550px;
+   margin: 80px 0px;
+   padding: 80px 40px;
+   z-index: 9;
+}
+.personal-list p {
+   line-height: 2.8rem;
+   /* text-align: justify; */
+}
+.list-picker {
+   /* background-color: #5f46ba; */
+   margin: 40px 0;
+}
+.pick-lists {
+   color: var(--text-font);
+   padding: 20px 0;
+   position: relative;
+}
+.pick-lists span {
+   font-size: 14px;
+   /* color: var(--text-font); */
+   color: #a1a1a1;
+   right: 2%;
+   position: absolute;
+   transition: 0.6s ease;
+}
+.pick-lists:hover, .pick-lists:hover span {
+   color: var(--color-light-blue);
+   cursor: pointer;
+}
+.pick-lists:hover span {
+   transform: rotate(-90deg);
+}
+.personal-list-details {
+   /* transform: scaleX(1); */
+   /* background-color: red; */
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   width: 80%;
+   max-width: 1095px;
+   margin: 30px 160px;
+   /* margin: 0 185px; */
+}
+.education-section {
+   /* background-color: aliceblue; */
+   display: flex;
+   height: 85vh;
+   justify-content: center;
+   margin: 100px 60px;
+}
+.education-info {
+   background-color: #5e5d7a;
+   height: 50%;
+   margin: 40px;
+}
+.csharp, .cplus {
+   height: 15px;
+}
+.python-logo {
+   height: 20px;
 }
