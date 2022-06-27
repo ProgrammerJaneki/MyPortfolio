@@ -19,15 +19,15 @@
             </a>
             <div class="nav-links">
                <ul class="ul-navs">
-                  <li><a href="">Home</a></li>
+                  <li><a href="#home-page">Home</a></li>
                   <li><a href="#personal-section">Personal</a></li>
-                  <li><a href="">Education</a></li>
-                  <li><a href="">My Setup</a></li>
+                  <!-- <li><a href="">Education</a></li> -->
+                  <li><a href="">Gallery</a></li>
                </ul>
             </div>
          </nav>
       </section>
-      <!-- Personal Details Section -->
+      <!-- Home Page Section -->
       <section class="home-page" id="home-page">
          <div class="my-pic half-border">
             <img src="/images/MyPic.png" alt="mypic" />
@@ -52,14 +52,14 @@
             <i class="fa-solid fa-minus"></i>
          </a>
          <div class="nav-details2"><span>Personal</span></div>
-         <a href="" class="page-nav nav3">
+         <!-- <a href="" class="page-nav nav3">
             <i class="fa-solid fa-minus"></i>
          </a>
-         <div class="nav-details3"><span>Education</span></div>
+         <div class="nav-details3"><span>Education</span></div> -->
          <a href="" class="page-nav nav4">
             <i class="fa-solid fa-minus"></i>
          </a>
-         <div class="nav-details4"><span>My Setup</span></div>
+         <div class="nav-details4"><span>Gallery</span></div>
       </div>
       <!-- Social Media Links -->
       <div class="social-media">
@@ -87,6 +87,7 @@
       <img class="cplus" src="/images/c++.png" alt="c++#" />
       <img src="/images/c.png" alt="c#" class="csharp" />
       <i class="fa-brands fa-java"></i> -->
+
       <!-- Personal Details Section -->
       <section class="personal-section" id="personal-section">
          <div class="personal-container half-border">
@@ -108,17 +109,58 @@
                   <hr />
                   <div class="pick-lists">
                      1. Personal Information
-                     <span><i class="fa-solid fa-down-long"></i></span>
+                     <span class="span-down"
+                        ><i class="fa-solid fa-down-long down"></i
+                     ></span>
+                  </div>
+                  <div class="hide-pick-list1 hide-pick-list">
+                     <span>
+                        I am Jannel Revilla, 21 years old, and am currently
+                        looking for Internship. </span
+                     ><br />
+                     <button class="show-hidden-info" id="show-hidden-info">
+                        SHOW MORE
+                        <span
+                           ><i class="fa-solid fa-right-long show-right"></i
+                        ></span>
+                     </button>
                   </div>
                   <hr />
                   <div class="pick-lists">
                      2. Educational Background
-                     <span><i class="fa-solid fa-down-long"></i></span>
+                     <span><i class="fa-solid fa-down-long down2"></i></span>
+                  </div>
+                  <div class="hide-pick-list2 hide-pick-list">
+                     <span>
+                        Currently studying Computer Engineering at Cavite State
+                        University - CCAT Campus. </span
+                     ><br />
+                     <button class="show-hidden-info" id="show-hidden-info">
+                        SHOW MORE
+                        <span
+                           ><i class="fa-solid fa-right-long show-right2"></i
+                        ></span>
+                     </button>
                   </div>
                   <hr />
                   <div class="pick-lists">
                      3. Skills
-                     <span><i class="fa-solid fa-down-long"></i></span>
+                     <span><i class="fa-solid fa-down-long down3"></i></span>
+                  </div>
+                  <div class="hide-pick-list3 hide-pick-list">
+                     <span>
+                        I am currently more focused on HTML, CSS, Javascript,
+                        and its related frameworks such as Angular, but i have
+                        done projects with Python, C++, and C# during college.
+                        Just last year, I created a terminal-based manual
+                        reviewer project using Python and SQlite3. </span
+                     ><br />
+                     <button class="show-hidden-info" id="show-hidden-info">
+                        SHOW MORE
+                        <span
+                           ><i class="fa-solid fa-right-long show-right3"></i
+                        ></span>
+                     </button>
                   </div>
                   <hr />
                </div>
@@ -137,13 +179,364 @@
                         Hobbies: Programming, Singing
                      </p>
                   </div>
+                  <div class="personal-info2" id="personal-info2">
+                     <!-- College -->
+                     <div class="college-section">
+                        <hr />
+                        <ul class="college">
+                           <li>
+                              <!-- <hr /> -->
+                              <span
+                                 style="font-weight: bolder; position: relative"
+                                 >COLLEGE</span
+                              >
+                              <span class="college-year">2018-2022</span>
+                           </li>
+                           <li class="college-name">
+                              Cavite State University - CCAT Campus | 2018-2022
+                           </li>
+                           <li class="college-prog">
+                              <i class="fa-solid fa-minus"></i>
+                              Bachelor of Science in Computer Engineering
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- Senior High -->
+                     <div class="senior-high-section">
+                        <hr />
+                        <ul class="senior-high">
+                           <li>
+                              <span
+                                 style="font-weight: bolder; position: relative"
+                                 >SENIOR HIGH SCHOOL</span
+                              >
+                              <span class="shs-year">2016-2018</span>
+                           </li>
+                           <li class="shs-name">
+                              University of Perpetual Help System DALTA - Molino
+                              Campus | 2016-2018
+                           </li>
+                           <li class="shs-prog">
+                              <i class="fa-solid fa-minus"></i>
+                              Science, Technology, Engineering, and Mathematics
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- High School -->
+                     <div class="highschool-section">
+                        <hr />
+                        <ul class="highschool">
+                           <li>
+                              <span
+                                 style="font-weight: bolder; position: relative"
+                                 >HIGH SCHOOL</span
+                              >
+                              <span class="hs-year">2012-2016</span>
+                           </li>
+                           <li class="highschool-name">
+                              Our Lady of the Pillar Catholic School | 2012-2016
+                           </li>
+                           <!-- <li class="highschool-prog">
+                              <i class="fa-solid fa-minus"></i>
+                           </li> -->
+                        </ul>
+                        <hr />
+                     </div>
+                  </div>
+                  <div class="personal-info3" id="persona-info3">
+                     <div class="skills-slider">
+                        <!-- Container -->
+                        <div class="skills-slide">
+                           <!-- Items -->
+                           <span class="skills-item" style="font-weight: bolder"
+                              >JAVASCRIPT</span
+                           >
+                           <img
+                              src="/images/java.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="color: #5e5d7a; letter-spacing: 2px"
+                           >
+                              I have finished JavaScript Essentials 1 course
+                              provided by Cisco Networking Academy. I was also
+                              able to implement my knowledge of JavaScript
+                              during our Thesis on the front-end part.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >HTML</span
+                           >
+                           <img
+                              src="/images/html.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I have certificcate for HTML course provided by
+                              Sololearn. I am confident with my knowledge in
+                              HTML based on my previous projects such as our
+                              Thesis Project and this portfolio
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >CSS</span
+                           >
+                           <img
+                              src="/images/css.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I am knowledgeable of the Intermediate CSS and was
+                              able to implement it in previous projects.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >ANGULAR</span
+                           >
+                           <img
+                              src="/images/angular.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              Angular is the first framework i've used during
+                              our Thesis Project. I understand the basic
+                              structures of the components and how to
+                              communicate to the back-end.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >SPRINGBOOT</span
+                           >
+                           <img
+                              src="/images/spring.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I have experience with Spring Boot during our
+                              Thesis Project. We used Spring Boot for
+                              Registration of Account, Login, Posting, and File
+                              upload.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >POSTGRESQL</span
+                           >
+                           <img
+                              src="/images/postgresql.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I have used PostgreSQL as our database for our
+                              website. I am familiar with the commands in the
+                              terminal to navigate and perform certain tasks
+                              such as inserting, creating, displaying, updating,
+                              altering, and deleting of data.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >PYTHON</span
+                           >
+                           <img
+                              src="/images/python.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I have a certificate for Intermediate Python and
+                              Python Data Structures from SoloLearn. The last
+                              project i did with Python was a terminal-based
+                              manual reviewer with a database.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >SQLITE3</span
+                           >
+                           <img
+                              src="/images/sqlite.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I have basic knowledge of SQlite3 as I've used it
+                              as a database for my last python project, a
+                              terminal-based manual reviewer.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >GIT</span
+                           >
+                           <img
+                              src="/images/git.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I have experience in using git for the
+                              collaborative project during our Thesis and for my
+                              projects.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >C++</span
+                           >
+                           <img
+                              src="/images/c++.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I learned about C++ during our 2nd year and was
+                              able to learn from the basics up until the
+                              intermediate part. My last project was a
+                              terminal-based grading system without a database.
+                           </p>
+                        </div>
+                        <div class="skills-slide">
+                           <span class="skills-item" style="font-weight: bolder"
+                              >LINUX</span
+                           >
+                           <img
+                              src="/images/linux.png"
+                              alt=""
+                              class="js-img skills-item"
+                              width="90"
+                              height="90"
+                           />
+                           <p
+                              class="js-details skills-item"
+                              style="
+                                 text-indent: 2rem;
+                                 text-align: justify;
+                                 font-size: 16px;
+                                 color: #5e5d7a;
+                              "
+                           >
+                              I am currently using Linux as my Operating System
+                              and am quite familiar in using terminal commands.
+                           </p>
+                        </div>
+                        <!-- <i class="fa-solid fa-chevron-left btn-previous"></i> -->
+                        <i class="fa-solid fa-square btn-previous"></i>
+                        <i class="fa-solid fa-square btn-next"></i>
+                        <!-- <i class="fa-solid fa-right-long btn-next"></i> -->
+                        <!-- <i class="fa-solid fa-chevron-right btn-next"></i> -->
+                     </div>
+                  </div>
                </div>
             </article>
          </div>
       </section>
-      <!-- Education Section -->
-      <section class="education-section" id="education-section">
-         <div class="education-info" id="education-info">CVSU</div>
+      <!-- Gallery Secton -->
+      <section class="gallery-section">
+         <div class="gallery-container">Gallery</div>
       </section>
       <article class="home-intro">
          <p>

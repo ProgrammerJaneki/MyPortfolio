@@ -7,3 +7,126 @@ Address:  70 ME Gen. F. Yengco St. Poblacion IV-B Imus City,
 Mobile:   09260722719
 Email:    revillazjannelz@gmail.com
 Hobbies:  Programming, Singing
+
+- I am currently 21 years of age and currently looking for Internship
+- I am Jannel Revilla, 21 years old, and am currently looking for Internship.   
+   - Show More ->
+- Currently an undergraduate in Cavite State University - CCAT Campus
+   - Show More ->
+- I am currently more focused on HTML, CSS, Javascript, and its related frameworks, 
+but i have done projects with Python, C++, and C# in the past. Just last year, I 
+created a terminal-based manual reviewer project using python and sqlite3.
+   - Show More ->
+
+// EDUCATIONAL BACKGROUND
+
+COLLEGE
+Cavite State University - CCAT Campus     | 2018-2022
+-- Bachelor of Science in Computer Engineering
+
+SENIOR HIGH SCHOOL
+University of Perpetual Help System DALTA - Molino Campus     | 2016-2018
+-- Science, Technology, Engineering, and Mathematics (K-12)
+
+HIGH SCHOOL
+Our Lady of the  Pillar Catholic School     | 2012 - 2016
+
+ELEMENTARY
+Cayetano Topacio Elementary School      | 2006 - 2012
+// Skills
+- Javascript 
+  - I have finished JavaScript Essentials 1 course provided by Cisco Networking
+    Academy. I was also able to implement my knowledge in JavaScript during our 
+    Thesis on the front-end part.
+- HTML 
+  - I have certificcate for HTML course prvided by Sololearn.
+    I am confident with my knowledge in HTML based on my previous projects
+    such as our Thesis Project and this portfolio
+- CSS 
+  - I am knowledgale of the Intermediate CSS and was able to implement
+    it in previous projects.
+- Intermediate Angular 
+  - Angular is the first framework i've used during our Thesis Project.
+    I understand the proper structures of the components and how to communicate
+    to the back-end.
+- Springboot 
+  - I have experience with Spring Boot during our Thesis Project. We used 
+    Spring Boot for Registration of Account, Login, Posting, and File upload. 
+- PostgreSQL 
+  - I have used PostgreSQL as our database for our website. I am familiar 
+    with the commands in the terminal to navigate and perform certain tasks
+    such as inserting, creating, displaying, updating, altering, and deleting
+    of data.
+   PostgreSQL was the database we used for storing the personal details 
+    of the users for our website as well as the uploaded pictures/status.
+- Python
+  - I have a certificate for Intermediate Python and Python Data Structures 
+    from SoloLearn. The last project i did with Python was a terminal-based 
+    manual reviewer with a database.
+- SQlite3
+  - I have basic knowledge of SQlite3 as I've used it as a database for my 
+    last python project, a terminal-based manual reviewer.
+- Github
+- Git
+  - I have experience in using git for the collaborative project during our Thesis 
+    and for my projects. 
+- Core C++
+  - I learned about C++ during our 2nd year and was able to learn from 
+    the basics up until the intermediate part. My last project was a 
+    terminal-based grading system without a database.
+- Linux 
+  - I am currently using Linux as my Operating System and am quite familiar 
+    in using terminal commands. 
+JavaScript HTML, CSS Intermediate Angular Springboot PostgreSQL 
+SQlite3 Github, Git Core C++
+
+<!-- HTML !-->
+<button class="button-36" role="button">Button 36</button>
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+// Gallery
+// Will put multiple images, but what images? 
+// MY PC
+- vs code 
+- neofetch 
+- vim 
+- ranger 
+- desktop view 
+- rofi 
+- powermenu
+- screenshot 
+// My PICTURES & CVSU 
+
+// GENSHIN
+

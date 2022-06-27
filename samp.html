@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Title of the document</title>
+      <style>
+         .todolist__message {
+            transition: opacity 1s;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="wrapper"></div>
+      <button id="btn">delete</button>
+      <script>
+         var msg = "hello World";
+
+         const markup = `
+    <div class="todolist__message todolist__message">${msg}</div>
+`;
+
+         wrapper.innerHTML = markup;
+         btn.addEventListener("click", function () {
+            const message = document.querySelector(".todolist__message");
+
+            // Change the message opacity
+            message.style.opacity = "0";
+
+            // Remove the message
+            setTimeout(
+               () =>
+                  document
+                     .querySelector(".todolist__message")
+                     .parentElement.removeChild(message),
+               2000
+            );
+         });
+      </script>
+   </body>
+</html>
