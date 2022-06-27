@@ -231,10 +231,10 @@ nav {
 /* Personal Details Section */
 .personal-section {
    /* align-items: center; */
-   /* background-color: bisque ; */
+   background-color: bisque ;
    display: flex;
    /* max-height: 85vh; */
-   height: 125vh;
+   height: 105vh;
    /* justify-content: center; */
    /* margin: 100px 60px; */
    margin: 0 60px;
@@ -524,4 +524,73 @@ nav {
 }
 .html, .angular, .spring, .git{  
    height: 2.6rem;
+} */
+.gallery-section {
+   /* background-color: #455EB5; */
+   height: 500vh;  /* Adjustable Height */
+   margin: 0 60px;
+}
+/* fr = fraction */
+.gallery-container {
+   /* background-color: antiquewhite; */
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: repeat(8, 16vw);
+   grid-gap: 10rem 4rem;
+   /* gap: 50px; */
+   height: 80%;
+   margin: 40px 100px;
+}
+.my-pictures {
+   /* align-items: center; */
+   background-color: red;
+   color: var(--text-font-darker);
+   display: flex;
+   font-size: 2rem;
+   justify-content: end;
+   font-style: italic;
+   /* justify-content: center; */
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   padding: 20px;
+}
+.gallery-image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.gallery-item-1 {
+   /* background-color: blue; */
+   /* padding: 20px; */
+   height: auto;
+   /* height: 700px; */
+   grid-row-start: 1;
+   grid-row-end: 3;
+   grid-column-start: 3;
+   grid-column-end: 7;
+}
+.gallery-item-2 {
+   background-color: green;
+   margin-left: 40px;
+   /* margin-top: 200px; */
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 4;
+}
+.gallery-item-3 {
+   background-color: yellow;
+   padding: 20px;
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 4;
+   grid-row-end: 6;
+}
+/* .solo-my-pictures {
+   object-fit: cover;
+   border: solid #5643CC 3px;
+   width: 100px;
+   height: 100px;
 } */
